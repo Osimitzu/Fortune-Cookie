@@ -8,7 +8,6 @@ La idea de este proyecto es crear una pagina que pueda generarnos una fortuna al
 
 - Crea una aplicación de React con Vitejs o Create React App
 - Descarga y guarda dentro de tu proyecto el siguiente archivo con las frases de la fortuna:
-  ‣
 - Debes de crear un componente que muestre la fortuna y el autor de dicha fortuna.
 - Debes de crear un botón que al dar click cambie la fortuna de forma aleatoria
 - El fondo también debe de cambiar.
