@@ -52,6 +52,8 @@
   position: absolute;
   bottom: 20px;
   left: 40px;
+  font-family: "Cutive Mono";
+  font-size: smaller;
 }
 
 /* .container {

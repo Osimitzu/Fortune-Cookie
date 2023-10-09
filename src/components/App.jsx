@@ -8,6 +8,7 @@ import backgroundR from "../data/backgrounds.json";
 
 function App() {
   const [index, setIndex] = useState(0);
+  const [indexB, setIndexB] = useState(0);
 
   const updateQuote = () => {
     let newIndex = 0;
@@ -17,14 +18,28 @@ function App() {
     } while (newIndex === index);
 
     setIndex(newIndex);
-    console.log(newIndex);
+    // console.log(newIndex);
+    setIndexB(updateBackground);
+    console.log(indexB);
+  };
+
+  const updateBackground = () => {
+    let newIndex = 0;
+
+    do {
+      newIndex = Math.floor(Math.random() * 8);
+    } while (newIndex === indexB);
+
+    setIndexB(newIndex);
+    // console.log(newIndex);
+    return indexB;
   };
 
   return (
     <div
       className="App"
       style={{
-        backgroundImage: `url("/fortuneBackgrounds/background7.jpg")`,
+        backgroundImage: `url("${backgroundR[indexB].image}")`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
