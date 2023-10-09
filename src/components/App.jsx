@@ -7,8 +7,8 @@ import quoteR from "../data/phrases.json";
 import backgroundR from "../data/backgrounds.json";
 
 function App() {
-  const [index, setIndex] = useState(0);
-  const [indexB, setIndexB] = useState(0);
+  const [index, setIndex] = useState(Math.floor(Math.random() * 15));
+  const [indexB, setIndexB] = useState(Math.floor(Math.random() * 8));
 
   const updateQuote = () => {
     let newIndex = 0;
