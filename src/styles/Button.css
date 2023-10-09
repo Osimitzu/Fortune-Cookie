@@ -2,12 +2,13 @@ button {
   width: 120px;
   height: 55px;
   outline: none;
-  border: 2px solid whitesmoke;
+  border: 1px solid rgb(63, 63, 63);
   border-radius: 10px;
-  background-color: teal;
-  opacity: 0.6;
+  background-color: whitesmoke;
+  opacity: 0.5;
   cursor: pointer;
   transition: 0.3s;
+  color: black;
 }
 
 i {
@@ -15,7 +16,8 @@ i {
 }
 
 button:hover {
-  opacity: 0.9;
+  opacity: 0.6;
+  background-color: rgb(160, 160, 160);
 }
 
 button:active {
