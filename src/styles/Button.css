@@ -1,0 +1,23 @@
+button {
+  width: 120px;
+  height: 55px;
+  outline: none;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  background-color: teal;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+i {
+  font-size: 45px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.93);
+}

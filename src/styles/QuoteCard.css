@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+/* Estilo para resoluciones de celular (hasta 767px de ancho) */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    outline: none;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+}
+
+/* Estilo para resoluciones de computadora (a partir de 768px de ancho) */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 600px;
+    height: 200px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    outline: none;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+}
+
+.quote {
+  text-align: center;
+  text-wrap: wrap;
+  font-family: "Cutive Mono";
+  font-size: large;
+}
+
+.quoteIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.author {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+/* .container {
+  width: 600px;
+  height: 200px;
+  background-color: whitesmoke;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  outline: none;
+  border-radius: 20px 5px 20px 5px;
+} */
