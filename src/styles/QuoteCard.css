@@ -2,8 +2,8 @@
 /* Estilo para resoluciones de celular (hasta 767px de ancho) */
 @media screen and (max-width: 767px) {
   .container {
-    width: 348px;
-    height: 300px;
+    width: 345px;
+    height: 270px;
     background-color: whitesmoke;
     opacity: 0.6;
     display: flex;
