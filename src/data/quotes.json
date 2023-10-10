@@ -245,7 +245,7 @@
   },
   {
     "phrase": "Lo malo y lo bueno vienen juntos.",
-    "author": "Southpark"
+    "author": "Unknown (Southpark)"
   },
   {
     "phrase": "El que cree es porque no sabe y el que sabe no tiene necesidad de creer.",
@@ -622,5 +622,9 @@
   {
     "phrase": "Poder decir adiós es crecer...",
     "author": "Gustavo Cerati"
+  },
+  {
+    "phrase": "...",
+    "author": "Miriam Sheccid"
   }
 ]
