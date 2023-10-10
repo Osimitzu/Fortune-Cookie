@@ -7,14 +7,14 @@ import quoteR from "../data/quotes.json";
 import backgroundR from "../data/backgrounds.json";
 
 function App() {
-  const [index, setIndex] = useState(Math.floor(Math.random() * 156));
+  const [index, setIndex] = useState(Math.floor(Math.random() * 157));
   const [indexB, setIndexB] = useState(Math.floor(Math.random() * 8));
 
   const updateQuote = () => {
     let newIndex = 0;
 
     do {
-      newIndex = Math.floor(Math.random() * 156);
+      newIndex = Math.floor(Math.random() * 157);
     } while (newIndex === index);
 
     setIndex(newIndex);
