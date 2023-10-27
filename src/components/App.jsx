@@ -5,6 +5,7 @@ import QuoteCard from "./QuoteCard";
 import Button from "./Button";
 import quoteR from "../data/quotes.json";
 import backgroundR from "../data/backgrounds.json";
+import { Footer } from "./Footer";
 
 function App() {
   const [index, setIndex] = useState(Math.floor(Math.random() * 157));
@@ -47,6 +48,9 @@ function App() {
       <Title />
       <QuoteCard quoteData={quoteR[index]} />
       <Button update={updateQuote} />
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
