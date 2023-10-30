@@ -12,6 +12,7 @@ function App() {
   const [indexB, setIndexB] = useState(Math.floor(Math.random() * 8));
 
   const updateQuote = () => {
+    setIndexB(updateBackground);
     let newIndex = 0;
 
     do {
@@ -20,7 +21,6 @@ function App() {
 
     setIndex(newIndex);
     // console.log(newIndex);
-    setIndexB(updateBackground);
   };
 
   const updateBackground = () => {
